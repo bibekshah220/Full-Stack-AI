@@ -14,4 +14,13 @@ tuple_var = (1, 2, 3)
 dict_var = {"name": "Alice", "age": 30}
 boolean_var = True
 
+# print and manipulate variables
+print("Integer variable:", interger_var)
+print("Float variable:", float_var)
+print("String variable:", string_var)
+print("List variable:", list_var)
+list_var.append(6)  # adding an element to the list
+print("Tuple variable:", tuple_var)
+print("Dictionary variable:", dict_var["name"])
+print("Boolean variable:", boolean_var)
 
