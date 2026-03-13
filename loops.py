@@ -25,3 +25,9 @@ for i in range(10):
         continue
     print(i)
     # output: 0, 1, 2, 3, 4, 5, 6, 8, 9
+
+for i in range(11):
+    if i % 2 == 0:
+        continue
+    print(i)
+    # output: 1, 3, 5, 7, 9
