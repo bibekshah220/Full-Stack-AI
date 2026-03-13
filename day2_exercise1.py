@@ -7,7 +7,8 @@ if num > 1:
                 print(num, "is not a prime number.")
                 break
     else:
-        print(num, "is a prime number.")
+        print(f"{num} is a prime number.")
 else:
-    print(num, "is not a prime number.")
+    print(f"{num} is not a prime number.")
                 # output: 1 is not a prime number. (if input is 1)
+
