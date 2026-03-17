@@ -42,3 +42,4 @@ while True:
             print(f"Result: {divide(num1, num2)}")
     else:
         print("Invalid choice. Please try again.")
+        
