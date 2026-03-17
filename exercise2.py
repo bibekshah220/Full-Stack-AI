@@ -1,0 +1,9 @@
+# create a function to calculate factorials
+
+def factorials(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorials(n - 1)   
+   
+   
