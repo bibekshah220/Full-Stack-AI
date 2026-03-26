@@ -17,3 +17,11 @@ numbers[0] = 10
 print(numbers)  # Output: [10, 2, 3, 4, 5]
 fruits.append('orange')
 print(fruits)  # Output: ['apple', 'banana', 'cherry', 'orange']
+
+#Accessing indexes
+print(numbers[0])  # Output: 10
+print(numbers[1])  # Output: 2
+print(numbers[2])  # Output: 3
+print(numbers[3])  # Output: 4
+print(numbers[4])  # Output: 5
+    
