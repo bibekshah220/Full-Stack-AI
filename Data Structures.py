@@ -24,4 +24,11 @@ print(numbers[1])  # Output: 2
 print(numbers[2])  # Output: 3
 print(numbers[3])  # Output: 4
 print(numbers[4])  # Output: 5
-    
+
+# negative indexing
+print(numbers[-1])  # Output: 5 
+print(numbers[-2])  # Output: 4
+print(numbers[-3])  # Output: 3
+print(numbers[-4])  # Output: 2
+print(numbers[-5])  # Output: 10
+
