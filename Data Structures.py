@@ -6,3 +6,8 @@ numbers = [1, 2, 3, 4, 5]
 fruits = ['apple', 'banana', 'cherry']
 
 mixed_list = [1, 'hello', 3.14, True]
+
+# accessing list elements
+print(numbers[0])  # Output: 1
+print(fruits[1])  # Output: 'banana'
+print(mixed_list[2])  # Output: 3.14
