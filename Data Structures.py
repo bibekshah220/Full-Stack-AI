@@ -56,4 +56,6 @@ print(person["city"])  # Output: 'Kathmandu'
 # modifying dictionary values
 person["age"] = 26
 print(person)  # Output: {'name': 'bibek', 'age': 26, 'city': 'Kathmandu'}
+del person["city"]
+print(person)  # Output: {'name': 'bibek', 'age': 26}
 
