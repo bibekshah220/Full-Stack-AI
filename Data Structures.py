@@ -41,3 +41,19 @@ print(colours[0])  # Output: 'red'
 print(colours[1])  # Output: 'green'    
 print(colours[2])  # Output: 'blue'
 print(colours[-1])  # Output: 'blue'
+
+# Dictionaries
+# A dictionary is a collection of key-value pairs. It is a mutable data structure, which means that you can change the contents of a dictionary after it has been created. Dictionaries are defined by enclosing a comma-separated sequence of key-value pairs in curly braces {}.
+person = {
+    "name": "bibek",
+    "age": 25,
+    "city": "Kathmandu"
+}
+# accessing dictionary values
+print(person["name"])  # Output: 'bibek'
+print(person["age"])  # Output: 25
+print(person["city"])  # Output: 'Kathmandu'
+# modifying dictionary values
+person["age"] = 26
+print(person)  # Output: {'name': 'bibek', 'age': 26, 'city': 'Kathmandu'}
+
