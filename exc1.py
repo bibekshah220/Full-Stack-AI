@@ -1,3 +1,5 @@
+#create a program that stores student grades in a dictionary and calculates the average grade
+
 student_grades = {
     "anit": 85,
     "Bibek": 92,
@@ -12,4 +14,4 @@ if student_grades:  # check if dictionary is not empty
     average_grade = total_grades / number_of_students
     print(f"The average grade is: {average_grade:.2f}")
 else:
-    print("No student data available.")
+    print("No student data available.") 
