@@ -24,6 +24,9 @@ person["country"] = "Nepal"
 print(person)  # Output: {'name': 'bibek', 'age': 26, 'country': 'Nepal'}
 person["name"] = "bibek shah"
 print(person)  # Output: {'name': 'bibek shah', 'age': 26, 'country': 'Nepal'}
+#update age
+person["age"] = 27
+print(person)  # Output: {'name': 'bibek shah', 'age': 27, 'country': 'Nepal'}
 person.pop("age")
 print(person)  # Output: {'name': 'bibek shah', 'country': 'Nepal'}
 person.clear()
