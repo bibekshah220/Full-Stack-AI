@@ -59,3 +59,18 @@ print(person)  # Output: {'name': 'bibek', 'age': 26, 'city': 'Kathmandu'}
 del person["city"]
 print(person)  # Output: {'name': 'bibek', 'age': 26}
 
+#iteration
+for key, value in person.items():
+    print(f"{key}: {value}") # Output: name: bibek
+                             #         age: 26  
+                             #        city: Kathmandu
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+empty_set = set()
+# adding elements to a set
+set1.add(9) # Output: {1, 2, 3, 4, 5, 9}
+# removing elements from a set
+set1.remove(1)  # Output: {2, 3, 4, 5, 9}
+
+
