@@ -32,3 +32,12 @@ print(numbers[-3])  # Output: 3
 print(numbers[-4])  # Output: 2
 print(numbers[-5])  # Output: 10
 
+# tuples
+colours = ('red', 'green', 'blue')
+single_item = ("glass")
+
+# accessing tuple elements
+print(colours[0])  # Output: 'red'
+print(colours[1])  # Output: 'green'    
+print(colours[2])  # Output: 'blue'
+print(colours[-1])  # Output: 'blue'
