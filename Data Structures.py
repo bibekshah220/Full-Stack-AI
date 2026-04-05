@@ -89,3 +89,7 @@ intersection_set = set1.intersection(set2)  # Output: {4, 5}
 print(intersection_set)
 print(set1 & set2)  # Output: {4, 5}   
 
+# difference of sets
+difference_set = set1.difference(set2)  # Output: {1, 2
+print(difference_set)
+print(set1 - set2)  # Output: {1, 2, 3}
