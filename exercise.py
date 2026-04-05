@@ -19,4 +19,13 @@ for key, value in person.items():
     print(f"{key}: {value}") # Output: name: bibek
                              #         age: 26  
                              #        city: Kathmandu   
-                             
+# Add new key-value pair
+person["country"] = "Nepal"
+print(person)  # Output: {'name': 'bibek', 'age': 26, 'country': 'Nepal'}
+person["name"] = "bibek shah"
+print(person)  # Output: {'name': 'bibek shah', 'age': 26, 'country': 'Nepal'}
+person.pop("age")
+print(person)  # Output: {'name': 'bibek shah', 'country': 'Nepal'}
+person.clear()
+print(person)  # Output: {}
+
