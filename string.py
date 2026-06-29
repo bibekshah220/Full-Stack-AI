@@ -62,3 +62,12 @@ match = re.match(r"Python", text)
 
 if match:
     print(match.group())   # Output: Python 
+
+
+# re.findall() - Returns all matches as a list.
+
+text = "Apple costs 100, Banana costs 50."
+
+numbers = re.findall(r"\d+", text)
+
+print(numbers)   # Output: ['100', '50']
