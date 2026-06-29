@@ -54,4 +54,11 @@ if match:
 else:
     print("No match found.")
 
-    
+   # re.match() - Checks for a match only at the beginning of the string.
+
+text = "Python is awesome"
+
+match = re.match(r"Python", text)
+
+if match:
+    print(match.group())   # Output: Python 
