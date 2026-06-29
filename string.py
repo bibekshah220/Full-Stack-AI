@@ -85,3 +85,11 @@ for match in matches:
 # Item1
 # Item2
 # Item3
+
+# re.sub() - Replaces all occurrences of a pattern.
+
+text = "Hello World"
+
+result = re.sub(r"World", "Python", text)
+
+print(result)   # Output: Hello Python
