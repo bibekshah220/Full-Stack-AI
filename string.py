@@ -33,3 +33,25 @@ print(stripped_text)  # Output: 'Hello, World'
 """ Regular expressions (regex) are a powerful tool for pattern matching and text manipulation. They allow you to search for specific patterns in strings, extract information, and perform complex text transformations. Regular expressions are widely used in programming, data analysis, and text processing tasks. """  
 # using the re module in Python, you can work with regular expressions to perform tasks such as searching for patterns, validating input, and extracting data from text. Regular expressions use a combination of special characters and syntax to define patterns that can match specific sequences of characters in strings.
 
+
+import re
+
+# common functions in the re module
+
+# re.search() - Searches the entire string for the first occurrence
+# of a pattern and returns a Match object if found. If the pattern
+# is not found, it returns None.
+
+text = "Python was released in 1991."
+
+match = re.search(r"\d{4}", text)  # Search for a 4-digit number
+
+if match:
+    print(match.group())   # Output: 1991
+    print(match.start())   # Output: 23
+    print(match.end())     # Output: 27
+    print(match.span())    # Output: (23, 27)
+else:
+    print("No match found.")
+
+    
