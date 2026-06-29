@@ -25,3 +25,6 @@ print(joined_text)  # Output: 'Hello World!'
 replaced_text = text.replace("World", "Python")  # replaces the substring "World" with "Python"
 print(replaced_text)  # Output: 'Hello, Python!'
 
+stripped_text = text.strip("!")  # removes the exclamation mark from the end of the string
+print(stripped_text)  # Output: 'Hello, World'
+
