@@ -71,3 +71,17 @@ text = "Apple costs 100, Banana costs 50."
 numbers = re.findall(r"\d+", text)
 
 print(numbers)   # Output: ['100', '50']
+
+# re.finditer() - Returns an iterator containing Match objects.
+
+text = "Item1 Item2 Item3"
+
+matches = re.finditer(r"Item\d", text)
+
+for match in matches:
+    print(match.group())
+
+# Output:
+# Item1
+# Item2
+# Item3
