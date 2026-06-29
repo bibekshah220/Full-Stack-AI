@@ -28,3 +28,8 @@ print(replaced_text)  # Output: 'Hello, Python!'
 stripped_text = text.strip("!")  # removes the exclamation mark from the end of the string
 print(stripped_text)  # Output: 'Hello, World'
 
+# Regular expressions for pattern matching
+# what are regular expressions?
+""" Regular expressions (regex) are a powerful tool for pattern matching and text manipulation. They allow you to search for specific patterns in strings, extract information, and perform complex text transformations. Regular expressions are widely used in programming, data analysis, and text processing tasks. """  
+# using the re module in Python, you can work with regular expressions to perform tasks such as searching for patterns, validating input, and extracting data from text. Regular expressions use a combination of special characters and syntax to define patterns that can match specific sequences of characters in strings.
+
