@@ -93,3 +93,23 @@ text = "Hello World"
 result = re.sub(r"World", "Python", text)
 
 print(result)   # Output: Hello Python
+
+# re.split() - Splits a string wherever the pattern matches.
+
+text = "apple,banana,orange"
+
+result = re.split(r",", text)
+
+print(result)
+
+# Output:
+# ['apple', 'banana', 'orange']
+
+# re.fullmatch() - Returns a Match object only if the entire string
+# matches the pattern.
+
+text = "12345"
+
+match = re.fullmatch(r"\d+", text)
+
+print(match is not None)   # Output: True
