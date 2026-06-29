@@ -19,4 +19,9 @@ text = "Hello, World!"
 split_text = text.split(",")  # splits the string into a list of substrings based on the comma delimiter
 print(split_text)  # Output: ['Hello', ' World!']
 
+joined_text = " ".join(split_text)  # joins the list of substrings into a single string with a space as the delimiter
+print(joined_text)  # Output: 'Hello World!'
+
+replaced_text = text.replace("World", "Python")  # replaces the substring "World" with "Python"
+print(replaced_text)  # Output: 'Hello, Python!'
 
