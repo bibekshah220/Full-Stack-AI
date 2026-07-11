@@ -50,3 +50,13 @@ with open("student.txt", "a") as file:
     file.write("\nPython Programming")
 
 print("Data appended successfully.")
+
+# Copy contents from one file to another
+
+with open("student.txt", "r") as source:
+    data = source.read()
+
+with open("copy.txt", "w") as destination:
+    destination.write(data)
+
+print("File copied successfully.")
