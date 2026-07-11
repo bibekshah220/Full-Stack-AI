@@ -60,3 +60,15 @@ with open("copy.txt", "w") as destination:
     destination.write(data)
 
 print("File copied successfully.")
+
+# Search a word in a file
+
+word = input("Enter a word to search: ")
+
+with open("student.txt", "r") as file:
+    content = file.read()
+
+if word in content:
+    print("Word Found")
+else:
+    print("Word Not Found")
