@@ -6,3 +6,10 @@ with open("student.txt", "w") as file:
     file.write("Kathmandu")
 
 print("Data written successfully.")
+
+# Read the complete file
+
+with open("student.txt", "r") as file:
+    content = file.read()
+
+print(content)
