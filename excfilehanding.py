@@ -43,3 +43,10 @@ with open("student.txt", "r") as file:
     content = file.read()
 
 print("Total Characters:", len(content))
+
+# Add new data without deleting old data
+
+with open("student.txt", "a") as file:
+    file.write("\nPython Programming")
+
+print("Data appended successfully.")
