@@ -19,3 +19,10 @@ print(content)
 with open("student.txt", "r") as file:
     for line in file:
         print(line.strip())
+
+# Count total lines in a file
+
+with open("student.txt", "r") as file:
+    lines = file.readlines()
+
+print("Total Lines:", len(lines))
