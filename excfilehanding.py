@@ -72,3 +72,16 @@ if word in content:
     print("Word Found")
 else:
     print("Word Not Found")
+
+# Count vowels
+
+with open("student.txt", "r") as file:
+    content = file.read().lower()
+
+count = 0
+
+for ch in content:
+    if ch in "aeiou":
+        count += 1
+
+print("Total Vowels:", count)
