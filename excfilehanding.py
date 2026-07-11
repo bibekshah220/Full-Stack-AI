@@ -36,3 +36,10 @@ with open("student.txt", "r") as file:
 words = content.split()
 
 print("Total Words:", len(words))
+
+# Count total characters
+
+with open("student.txt", "r") as file:
+    content = file.read()
+
+print("Total Characters:", len(content))
