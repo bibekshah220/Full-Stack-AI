@@ -26,3 +26,13 @@ with open("student.txt", "r") as file:
     lines = file.readlines()
 
 print("Total Lines:", len(lines))
+
+
+# Count total words
+
+with open("student.txt", "r") as file:
+    content = file.read()
+
+words = content.split()
+
+print("Total Words:", len(words))
