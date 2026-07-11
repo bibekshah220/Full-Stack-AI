@@ -13,3 +13,9 @@ with open("student.txt", "r") as file:
     content = file.read()
 
 print(content)
+
+# Read file line by line
+
+with open("student.txt", "r") as file:
+    for line in file:
+        print(line.strip())
