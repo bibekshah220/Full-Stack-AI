@@ -85,3 +85,20 @@ for ch in content:
         count += 1
 
 print("Total Vowels:", count)
+
+# Count uppercase and lowercase letters
+
+with open("student.txt", "r") as file:
+    content = file.read()
+
+upper = 0
+lower = 0
+
+for ch in content:
+    if ch.isupper():
+        upper += 1
+    elif ch.islower():
+        lower += 1
+
+print("Uppercase Letters:", upper)
+print("Lowercase Letters:", lower)
